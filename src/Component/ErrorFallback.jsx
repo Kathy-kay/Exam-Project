@@ -1,16 +1,13 @@
-import { useNavigate } from "react-router-dom";
 
-const ErrorFallback = ({ error }) => {
-  const navigate = useNavigate();
+
+const ErrorFallback = ({ error, resetErrorBoundary }) => {
+
   return (
     <>
       <div role="alert" className="error">
         <h2>Something went wrong</h2>
         <p>{error.message}</p>
-        <button
-        onClick={() => {
-          navigate('/')
-        }}>Go Back</button>
+        <button onClick={resetErrorBoundary}>Go Home</button>
       </div>
     </>
   )

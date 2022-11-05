@@ -9,14 +9,18 @@ import Home from './Component/Home'
 import CustomHook from './Component/CustomHook'
 import NoMatch from './Component/NoMatch'
 import Error from './Component/Error'
-
+import {useNavigate} from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
+  const navigate = useNavigate()
 
   return (
     <div className="App">
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
+      <ErrorBoundary FallbackComponent={ErrorFallback}  onReset={()=>{
+      navigate("/")
+    }
+        }>
         <Navbar />
           <Routes>
             <Route>
