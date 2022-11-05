@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import {ErrorBoundary} from 'react-error-boundaries'
+import {ErrorBoundary} from 'react-error-boundary'
 import {Routes, Route} from 'react-router-dom'
 import ErrorFallback  from './Component/ErrorFallback'
 import Navbar from './Component/Navbar'
