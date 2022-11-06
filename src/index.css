@@ -103,11 +103,9 @@ input{
   .custom-section h1{
     text-align: center;
   }
-  .btn{
-    padding-left: 50px;
-  }
+  
   nav{
-    padding-inline: 20px;
+    padding-left: 20px;
   }
   nav ul li{
     margin: 10px;
