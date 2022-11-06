@@ -4,7 +4,7 @@
   /*font-weight: 400;
   color: rgba(255, 255, 255, 0.87);*/
   
-  background-color: #242424;
+  background-color: #251B37;
  
 
   
@@ -36,7 +36,7 @@ button {
   color: #fff;
   font-family: inherit;
   /*background-color: rgba(218,165,32,0.75);*/
-  background-color: #1a1a1a;
+  background-color: #251B37;
   cursor: pointer;
   font-weight: bold;
   margin-right: 5px;
@@ -60,7 +60,7 @@ button {
 
 
  button:hover {
-  border-color: #646cff;
+  border-color: #D8D9CF;
 }
 .first{
   margin-left: 40px;
@@ -78,19 +78,6 @@ input{
 }
 .second{
   margin-left: 90px;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
 
 @media (max-width: 700px){

@@ -70,9 +70,15 @@ nav ul li{
 .error-page p{
   font-size: 30px;
 }
-
+.fallback-btn{
+  background-color: #1a1a1a;
+}
+.hook-btnbtn{
+  background-color: #1a1a1a;
+}
 .error-btn{
   margin-top: 15px;
+  background-color: #1a1a1a;
 }
 
 .custom-section{

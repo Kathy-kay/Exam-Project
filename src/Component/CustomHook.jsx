@@ -34,14 +34,17 @@ const CustomHook = () => {
                />
                <button 
                onClick={counter.decrement}
-               disabled={counter.input === 0}>Decrement</button>
+               disabled={counter.input === 0}
+               className='hook-btnbtn'>Decrement</button>
 
                 <button 
-                onClick={counter.increment}>
+                onClick={counter.increment}
+                className='hook-btnbtn'>
                  Increment
                 </button>
                 <button 
-                 onClick={counter.reset}>
+                 onClick={counter.reset}
+                 className='hook-btnbtn'>
                     Reset
                 </button>
             </div>
