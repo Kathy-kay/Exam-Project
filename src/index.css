@@ -1,13 +1,9 @@
 :root {
   font-family: Inter, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  /*font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);*/
-  
-  background-color: #251B37;
- 
+  background-image:  linear-gradient(180deg,rgba(5,6,5,.72),#070909a1),url(/countdown.jpg);
+  background-position: center;
+  background-size: cover;
 
-  
 }
 *{
   margin: 0;
@@ -17,7 +13,7 @@
 
 a {
   font-weight: 500;
-  color: black;
+  color: #fff;
   text-decoration: inherit;
 }
 
@@ -34,9 +30,10 @@ button {
   padding: 0.6em 1.2em;
   font-size: 1em;
   color: #fff;
+ /* color: #181D31;*/
   font-family: inherit;
   /*background-color: rgba(218,165,32,0.75);*/
-  background-color: #251B37;
+  background-color: #F49D1A;
   cursor: pointer;
   font-weight: bold;
   margin-right: 5px;
@@ -49,9 +46,14 @@ button {
  
 
 }
-/*item-btn{
-  color: #1a1a1a;
+.item-btn{
+  margin-left: 45px;
+  width: 100px;
 }
+.btn-btn{
+  margin-left: 30px;
+}
+/*
 .btn-btn{
   color: rgba(218,165,32,0.75);
   border: 1px solid rgba(218,165,32,0.75);
@@ -60,24 +62,27 @@ button {
 
 
  button:hover {
-  border-color: #D8D9CF;
+  border-color: #0A2647;
 }
 .first{
   margin-left: 40px;
 }
 input{
   margin-bottom: 10px;
-  width: 70px;
+  width: 100px;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
+  outline-color: none;
   height: 37px;
-  margin-right: 8px;
+  color: #fff;
+  margin-right: 25px;
 }
 .item{
   align-content: center;
 }
 .second{
-  margin-left: 90px;
+  margin-left: 120px;
+  width: 100px;
 }
 
 @media (max-width: 700px){

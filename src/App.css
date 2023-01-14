@@ -7,12 +7,12 @@
 
 nav{
   height: 50px;
-  background-color: #D8D9CF;
+  background-color: #F49D1A;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex: 1fr;
-  color: #1a1a1a;;
+  color: #fff;
   padding: 30px 50px;
 }
 nav ul{
@@ -30,16 +30,22 @@ nav ul li{
   margin: 0  auto;
   width: 500px;
   height: 50vh;
-  background-color: #D8D9CF;
+  background-color: transparent;
   /*border: 1px solid rgba(218,165,32,0.75);*/
-  margin-top:150px ;
-  border-radius: 15px;
-  padding-top: 30px;
+  margin-top:20px ;
+  
+  padding-top: 10px;
   display: flex;
   justify-content: center;
 }
-.counter-display h1{
+.counter-display p{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 250px;
+ 
 }
 .error-page{
   text-align: center;
@@ -74,7 +80,7 @@ nav ul li{
   background-color: #1a1a1a;
 }
 .hook-btnbtn{
-  background-color: #1a1a1a;
+  background-color: #F49D1A;
 }
 .error-btn{
   margin-top: 15px;
@@ -88,13 +94,13 @@ nav ul li{
   
 }
 .customHook{
- 
-  
   padding-top: 120px ;
   color: #fff;
 }
 .customHook h1{
   font-size: 60px;
+  /*color:#F49D1A;*/
+  color: #fff;
 }
 .custom-btn{
   padding: 70px;
@@ -102,6 +108,8 @@ nav ul li{
 }
 input{
   color: #1a1a1a;
+  background-color: #F49D1A;
+
 }
 .count{
   text-align: center;

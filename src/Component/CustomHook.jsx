@@ -1,4 +1,7 @@
 import React, { useCallback, useState } from "react";
+import {FaPlus} from 'react-icons/fa'
+import {FaMinus} from 'react-icons/fa'
+import {RxReset} from 'react-icons/rx'
 
 
 const useCount = (initialCount) => {
@@ -35,17 +38,17 @@ const CustomHook = () => {
                <button 
                onClick={counter.decrement}
                disabled={counter.input === 0}
-               className='hook-btnbtn'>Decrement</button>
+               className='hook-btnbtn'><FaMinus/></button>
 
                 <button 
                 onClick={counter.increment}
                 className='hook-btnbtn'>
-                 Increment
+                 <FaPlus/>
                 </button>
                 <button 
                  onClick={counter.reset}
                  className='hook-btnbtn'>
-                    Reset
+                  <RxReset />
                 </button>
             </div>
         </div>

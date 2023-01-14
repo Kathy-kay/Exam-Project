@@ -1,5 +1,8 @@
 import { useReducer, useState } from "react"
 import {reducer} from './reducer'
+import {FaPlus} from 'react-icons/fa'
+import {FaMinus} from 'react-icons/fa'
+import {RxReset} from 'react-icons/rx'
 //import useCounter from "./useCounter"
 
 
@@ -36,7 +39,7 @@ const Home = () =>{
     return(
         <div className="container">
             <div className="counter-display">
-                <h1>Count : {state}</h1>
+                <p>{state}</p>
                 <div className="btn">
                     <div className="item first">
                     <input 
@@ -57,19 +60,19 @@ const Home = () =>{
                     onClick={handleDecreament}
                     className="item-btn"
                     disabled={state === 0}
-                    >Decreament</button>
+                    ><FaMinus/></button>
 
 
                 <button 
                  onClick={handleIncrement}
                  className="item-btn"
-                 >Increment
+                 ><FaPlus/>
                  </button>
                     </div>
                 <button  
                 className="item second btn-btn"
                  onClick={handleReset}
-                 >Reset
+                 ><RxReset size="1.7em"/>
                  </button>
                 </div>
             </div>
